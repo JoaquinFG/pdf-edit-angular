@@ -1,0 +1,58 @@
+.container {
+  margin: 3% auto;
+  width: 90%;
+  height: 80%;
+  border: 2px solid #8b2fc96e;
+  border-radius: 10px;
+  padding: 1%;
+}
+
+.hidePDF {
+  display: none !important;
+}
+
+.pdf-viewer {
+  display: block;
+  position: absolute;
+  top: 9%;
+  right: 1%;
+  width: 97%;
+  padding: 1%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  height: 83%;
+  z-index: 2;
+}
+
+.pdf-viewer-error {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  border: 1px solid;
+  background-color: #ffffff;
+  z-index: 2;
+  padding: 20px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.app-width-showMenu {
+  width: 70vw !important;
+}
+
+.app-width-showSecondSidenav {
+  width: 89.1vw !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .app-width-showMenu {
+    width: 73vw !important;
+  }
+  .app-width-showSecondSidenav {
+    width: 90vw !important;
+  }
+}
